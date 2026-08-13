@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.env
+dados/bruto/*
+!dados/bruto/.gitkeep
+*.parquet
