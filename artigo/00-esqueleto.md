@@ -8,9 +8,12 @@ da fase de cruzeiro para a fase de aproximação.
 
 **Extensão-alvo:** 2.500–3.500 palavras + 3 gráficos originais.
 
-**O que a matéria tem de novo:** ninguém publicou uma série temporal própria de degradação
-de NACp restrita ao Ártico europeu. Os números que circulam são contagens de notificações
-(input administrativo, sujeito a viés de reporte). NACp é medida física, vinda da aeronave.
+**O que a matéria tem de novo:** o método existe e é revisado por pares — Felux et al.
+(2024), *NAVIGATION* 71(3) — mas foi aplicado aos países bálticos, ao mar Negro e ao
+Mediterrâneo oriental, na janela fev–dez/2022. O Ártico europeu não está lá, nem os quatro
+anos seguintes. Somamos a isso o corte por altitude, que nenhum agregado público oferece.
+Os números que circulam na imprensa são contagens de notificações — input administrativo,
+sujeito a viés de reporte. NACp é medida física, vinda da própria aeronave.
 
 ---
 

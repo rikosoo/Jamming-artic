@@ -25,8 +25,16 @@ CONTROLE = Caixa("controle", 67.5, 69.5, 12.0, 17.0)
 
 CAIXAS = {c.nome: c for c in (FINNMARK, CONTROLE)}
 
-# Limiar de degradação. Ver analise/README.md — verificar contra o paper A8.
+# Limiares de degradação.
+#
+# NACp <= 7 é o limiar principal: a FAA considera NACp abaixo de 8 fora de conformidade
+# para operação padrão, então o corte não é arbitrário nosso — é o corte regulatório.
+#
+# NIC entra como segundo indicador porque é o que o próprio GPSJAM usa, e porque
+# Felux et al. (2024) analisam os dois. Manter os dois permite checar se a série muda
+# conforme o indicador — se mudar muito, isso vira parágrafo na matéria, não nota.
 NACP_DEGRADADO = 7
+NIC_DEGRADADO = 7  # ⚠ confirmar contra o texto de Felux et al. (fontes.md A8)
 
 # Faixas de altitude em metros, para o gráfico G2 (o da tese).
 FAIXAS_ALTITUDE = [(0, 1000), (1000, 3000), (3000, 6000), (6000, 10000), (10000, 15000)]

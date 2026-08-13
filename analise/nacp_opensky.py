@@ -7,10 +7,15 @@ contagem de notificações administrativas.
 Requer conta gratuita no OpenSky Network e a biblioteca `pyopensky` configurada
 (~/.config/pyopensky/settings.conf ou variáveis de ambiente).
 
-⚠ VERIFICAR: o nome da tabela e das colunas do NACp no backend Trino do OpenSky. O NACp
-viaja na mensagem de *operational status* (DO-260B), que o OpenSky decodifica em tabela
-própria — não está no state vector padrão. Rode primeiro com --amostra, olhe o que volta,
-e ajuste CONSULTA. Uma consulta errada em 4 anos de dados custa horas.
+O NACp viaja na mensagem de *operational status* (DO-260B, bits 77–80 do frame, emitida a
+cada ~2,5 s) — não está no state vector padrão. No backend Trino do OpenSky ele fica na
+tabela `operational_status_data4`, que segue o DO-260B. Puxamos NIC junto: é o indicador
+que o próprio GPSJAM usa, e Felux et al. (2024) analisam os dois.
+
+⚠ Os nomes exatos das colunas ainda não foram conferidos contra o schema vivo (o ambiente
+onde isto foi escrito não alcança a rede do OpenSky). Rode com --amostra primeiro, olhe o
+que volta, e ajuste CONSULTA. Uma consulta errada sobre 4 anos de dados custa horas de fila.
+Referência útil de SQL para esse mesmo backend: github.com/eugenepik/Opensky_ADS-B_GPS_anomalies
 
 Uso:
     python nacp_opensky.py --amostra                       # 1 dia, para conferir o schema
@@ -25,6 +30,7 @@ from config import (
     CAIXAS,
     FAIXAS_ALTITUDE,
     NACP_DEGRADADO,
+    NIC_DEGRADADO,
 )
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -36,6 +42,7 @@ SELECT
     date_trunc('day', from_unixtime(o.mintime))            AS dia,
     o.icao24,
     min(o.nacp)                                            AS nacp_min,
+    min(o.nic)                                             AS nic_min,
     avg(s.baroaltitude)                                    AS altitude_media
 FROM operational_status_data4 o
 JOIN state_vectors_data4 s
@@ -112,6 +119,8 @@ def main() -> int:
         return 1
 
     df["degradado"] = df["nacp_min"] <= NACP_DEGRADADO
+    if "nic_min" in df.columns:
+        df["degradado_nic"] = df["nic_min"] <= NIC_DEGRADADO
     df["faixa_altitude"] = df["altitude_media"].map(faixa_de)
     df["mes"] = pd.to_datetime(df["dia"]).dt.to_period("M").astype(str)
 
