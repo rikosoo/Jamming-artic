@@ -60,7 +60,7 @@ que o jamming é episódico. **Não é, e essa é a tese.** Os exercícios são 
 o que mudou foi o vale entre eles. Abrir e fechar a seção com o par Zapad, e dizer isso
 com todas as letras.
 
-Detalhe factual em `01-cronologia.md`, com fonte por linha.
+Detalhe factual em `cronologia-fatos.md`, com fonte por linha. Texto em `secao-1-cronologia.md`.
 
 ---
 

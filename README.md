@@ -16,12 +16,14 @@ transbordamento não tem interlocutor. Ver a nota editorial em `artigo/fontes.md
 
 ```
 artigo/
-  00-esqueleto.md     Estrutura em 8 seções, com o que cada uma precisa provar
-  01-cronologia.md    Linha do tempo 2017 → 2026, uma fonte por linha
-  02-abertura.md      Rascunho da abertura (seção 0) — a cena de Vardø
-  04-altitude.md      Rascunho da seção 4 — o argumento da altitude, coração da tese
-  fontes.md           Registro de verificação: 12 afirmações, status e proveniência
-  entrevistas.md      Pauta de campo por prioridade, com perguntas dirigidas
+  00-esqueleto.md          Estrutura em 8 seções, com o que cada uma precisa provar
+  fontes.md                Registro de verificação: 12 afirmações, status e proveniência
+  cronologia-fatos.md      Linha do tempo 2017 → 2026, uma fonte por linha
+  entrevistas.md           Pauta de campo por prioridade, com perguntas dirigidas
+  secao-0-abertura.md      Rascunho — a cena de Vardø
+  secao-1-cronologia.md    Rascunho — de anomalia a clima, e a armadilha Zapad
+  secao-2-numeros.md       Rascunho — por que a estatística oficial não basta
+  secao-4-altitude.md      Rascunho — o argumento da altitude, coração da tese
 analise/
   README.md           Metodologia NACp/NIC, limiares, caixa de controle, confundidores
   config.py           Recorte geográfico e parâmetros, fixados antes de rodar
@@ -70,8 +72,8 @@ caixas — o valor absoluto de uma delas mede a idade da frota, não o jamming.
 | Estrutura da matéria | ✅ 8 seções definidas |
 | Verificação de fontes | ✅ 12 de 12 afirmações confirmadas em fonte identificada — **todas em fonte secundária**; abrir os primários segue obrigatório |
 | Abertura (seção 0) | ✅ rascunho 1 |
-| Cronologia (seção 1) | 🔨 material pronto, texto não escrito |
-| Números (seção 2) | 🔨 material pronto, texto não escrito |
+| Cronologia (seção 1) | ✅ rascunho 1 |
+| Números (seção 2) | ✅ rascunho 1 |
 | Análise NACp (seção 3) | ⛔ depende da coleta |
 | Altitude (seção 4) | ✅ rascunho 1 |
 | Setores (seção 5) | ⛔ depende de entrevistas |
