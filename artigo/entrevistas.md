@@ -14,11 +14,27 @@ Perguntas:
 6. Você notifica todas as vezes? (Esta pergunta é a chave para avaliar o viés de reporte
    dos números finlandeses — pergunta obrigatória.)
 
-**Nkom.** Falar com quem opera a medição, não com a assessoria, se possível.
+**Nkom — dois nomes, e são os mais importantes da matéria.**
+
+*Espen Slette* (mediu os 500 m sobre Varanger):
 1. A medição dos 500 m: uma vez ou padrão? Quantas ocorrências, que período?
-2. As duas estações de 2026 são resposta a quê exatamente? Onde ficarão?
+2. Circulam 500 m e ~600 m em reportagens diferentes. Qual é qual, e de quando?
 3. Vocês veem mudança de assinatura — potência, banda, continuidade — ou só de frequência?
-4. Os dados brutos de monitoramento são acessíveis? Sob que condição?
+4. As duas estações de 2026: onde ficarão exatamente, e o que hoje é ponto cego?
+5. Os dados brutos de monitoramento são acessíveis? Sob que condição? *(Pedir. Se vierem,
+   são o cruzamento independente da nossa série de NACp — o melhor cenário possível.)*
+
+*Nicolai Gerrard* (a análise de transbordamento — A11):
+1. Transbordamento e não alvo: em que se baseia essa conclusão? Assinatura, geometria,
+   potência? É inferência ou medição?
+2. Se é proteção de instalações em Kola, ela é permanente enquanto a ameaça de drones for
+   permanente? Existe cenário em que isso diminua?
+3. Alguém do lado russo já reconheceu ou respondeu?
+4. A Noruega tem canal técnico com a Rússia sobre espectro? Ele funciona?
+
+Estas quatro perguntas a Gerrard são a espinha da seção 7. Se ele confirmar que não há
+mecanismo de desligamento, a matéria tem seu fecho dito por uma autoridade, não pelo
+repórter.
 
 ## Prioridade 2 — dá corpo à seção 5
 

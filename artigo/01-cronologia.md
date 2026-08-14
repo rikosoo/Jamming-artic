@@ -1,33 +1,51 @@
 # Cronologia 2017 → 2026
 
-Cada linha precisa de: data o mais precisa possível, fato, fonte primária, status de
-verificação. Nada entra na matéria enquanto o status for `⚠ a verificar`.
+Detalhe e proveniência de cada linha em `fontes.md`. Status `✅` = confirmado em fonte
+identificada; `⚠` = ainda por confirmar.
 
-| Data | Fato | Fonte | Status |
-|---|---|---|---|
-| 2017 | Primeira observação de jamming de GNSS no norte da Noruega | fornecida pelo autor | ⚠ a verificar — achar data e documento originais (Nkom / Forsvaret / NRK) |
-| 2022-02 | Invasão da Ucrânia; aumento drástico do jamming na região a partir daqui | fornecida pelo autor | ⚠ a verificar |
-| 2022 | GPSJAM.org começa a publicar mapas diários derivados de ADS-B | gpsjam.org | ⚠ confirmar mês inicial da série |
-| 2024–2025 | Nkom registra jamming forte sobre a Península de Varanger a altitudes tão baixas quanto 500 m | fornecida pelo autor | ⚠ a verificar — achar o relatório e a data da medição |
-| 2025-09 | Widerøe Dash-8 aborta o pouso em Vardø | fornecida pelo autor | ⚠ a verificar — data exata, número do voo, relatório de incidente |
-| 2025 (12 meses) | Finlândia: ~1.200 notificações de interferência de GPS na aviação, contra 239 no período anterior | fornecida pelo autor | ⚠ a verificar — Traficom; confirmar qual janela de 12 meses |
-| set/anual | Jammertest em Andøya — maior exercício aberto de jamming/spoofing do mundo, com dados abertos | jammertest.no | ⚠ confirmar edição e política de dados vigente |
-| 2026 | Nkom planeja instalar duas estações de monitoramento adicionais | fornecida pelo autor | ⚠ a verificar |
+| Data | Fato | Status |
+|---|---|---|
+| **7–20 set 2017** | Pilotos da Widerøe reportam perda de GPS, do extremo norte até ~600 km na costa oeste. Coincide com o **Zapad-2017**, com atividade em Pechenga (óblast de Múrmansk). Primeira observação registrada. | ✅ |
+| **out–nov 2018** | Exercício **Trident Juncture** da OTAN; perda de sinal registrada. Segundo dos episódios ligados a exercícios. | ✅ (⚠ datas exatas) |
+| 2019 | Autoridades russas declaram que o "escudo radioeletrônico" passa a cobrir o Ártico. | ⚠ |
+| fev 2022 | Invasão da Ucrânia. | ✅ |
+| **outono 2022** | **A inflexão real.** Começa o jamming *contínuo*, depois do início dos ataques ucranianos de drones a alvos dentro da Rússia. Mesmo padrão aparece em locais dentro da Rússia e no Báltico. | ✅ |
+| 2022 | GPSJAM.org começa a publicar mapas diários derivados de ADS-B. | ✅ (⚠ mês) |
+| 2024 | Finlândia: ~1.200 notificações de interferência de GPS na aviação, contra 239 no ano anterior. Mais ~2.100 vindas de fora da Finlândia. | ✅ |
+| 2024–25 | Nkom mede jamming forte sobre a Península de Varanger a **500 m**; medições mais recentes, a ~600 m. | ✅ (⚠ qual medição é de quando) |
+| **12(?) set 2025** | Widerøe Dash-8 vindo de Vadsø aborta o pouso em Vardø ao meio-dia de sexta e desvia para Båtsfjord. Jamming **+ teto baixo**. Durante o **Zapad-2025**. | ✅ (⚠ data e número do voo) |
+| **2026** | Nkom instala **2 estações adicionais** de monitoramento, somando às **3 já existentes** na região de fronteira. Cobrem lacunas na Península de Varanger e no mar de Barents. | ✅ |
 
-## Lacunas a preencher
+## O achado estrutural: Zapad-2017 → Zapad-2025
 
-- **Antes de 2017.** Houve registro na Finlândia/Lapônia antes da Noruega? Muda a leitura
-  da origem.
-- **2018 — exercício Trident Juncture.** Houve episódio de jamming associado a esse
-  período. Confirmar: seria a primeira vez que o assunto chega ao debate público norueguês.
-- **Protestos diplomáticos.** Houve nota formal da Noruega e/ou da Finlândia? Datas.
-- **Fechamentos/suspensões de rota.** Alguma companhia suspendeu operação em algum
-  aeroporto por causa disso? Esse seria o fato mais forte da cronologia.
-- **Lado finlandês.** A suspensão de rotas para Tartu (Estônia) por jamming é o precedente
-  mais citado na região. Verificar datas e se a operação foi retomada e sob que condição.
+A primeira observação registrada coincidiu com o Zapad-2017. O aborto de pouso em Vardø
+ocorreu durante o Zapad-2025. **Oito anos, o mesmo exercício, os dois extremos da série.**
 
-## Regra de atribuição
+Isso dá à cronologia uma moldura pronta — mas há uma armadilha: sugere que o jamming é
+episódico, ligado a exercícios. **Não é**, e essa é a tese. Os exercícios são os picos
+visíveis; a linha de base entre eles subiu até virar o próprio ambiente. Usar o par
+Zapad como abertura e fechamento da seção, e **explicitar** que o que mudou não foram os
+picos, foi o vale entre eles.
 
-A cronologia registra **onde** e **quando**, não **quem**. Qualquer frase sobre a origem do
-sinal só entra citando quem a afirma e em que documento. Inferência geográfica própria
-(gradiente leste→oeste no G3) é apresentada como o que é: inferência, do repórter.
+Se o G1 mostrar exatamente isso — picos nos exercícios sobre um patamar que sobe — é o
+gráfico que fecha a seção 1 sozinho.
+
+## Por que "2017" importa mais do que parece
+
+O fenômeno é **anterior à invasão**. Isso derruba a leitura de causa única e obriga o
+texto a falar de continuidade da atividade de guerra eletrônica em Kola. Combinado com
+A11 (transbordamento da proteção das bases, não ataque à Noruega), a cronologia conta uma
+história diferente da manchete usual: não é uma campanha que começou em 2022 e pode acabar,
+é uma condição de vizinhança que se intensificou e não tem mecanismo de desligamento.
+
+## Lacunas que sobraram
+
+- **Protesto diplomático.** A Noruega levou o assunto à Rússia — falta a data e o teor.
+- **Antes de 2017.** Houve registro na Lapônia finlandesa antes? Mudaria a origem da série.
+- **Suspensão de rotas.** Alguma companhia suspendeu operação em algum aeroporto por causa
+  disso? O precedente citado na região é a suspensão de voos para **Tartu** (Estônia).
+  Se houver equivalente norueguês, é o fato mais forte da cronologia.
+- **Svalbard.** Interferência registrada no espaço aéreo de Svalbard. Longe demais de Kola
+  para transbordamento simples — se recorrente, é outro teatro e talvez outra matéria.
+- **Zapad-2025.** Vale a versão de que o exercício serviu de cobertura para testar e
+  posicionar capacidade de jamming. É afirmação forte: só entra citando quem a fez.

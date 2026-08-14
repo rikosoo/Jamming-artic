@@ -29,6 +29,11 @@ O que a cena precisa entregar, em ordem:
 **A evitar:** abrir com estatística. A estatística é a seção 2, e ela pesa mais depois
 que o leitor já viu uma aproximação abortada.
 
+**Precisão obrigatória:** o pouso não foi abortado só por jamming. Foi jamming **somado a
+teto baixo de nuvens** — sem visual, e sem GNSS, não sobra procedimento. Escrever isso
+direito é o que separa a matéria do alarmismo, e não custa nada: a combinação é mais
+assustadora que a causa única, porque é a combinação que se repete todo inverno ártico.
+
 **Pendência de apuração:** relato em primeira pessoa de piloto que voa a rota
 Tromsø–Kirkenes. Sem isso a abertura fica de segunda mão. Ver `entrevistas.md`.
 
@@ -40,13 +45,20 @@ Não é lista. É a demonstração de três inflexões:
 
 | Inflexão | Quando | O que muda |
 |---|---|---|
-| Aparecimento | 2017 | Jamming observado pela primeira vez no norte da Noruega. Ainda é anomalia. |
-| Escalada | 2022 | Invasão da Ucrânia. Aumento drástico. Passa a ser recorrente. |
-| Descida | 2024–2026 | Jamming forte a 500 m sobre a Península de Varanger. Deixa de ser fenômeno de alta altitude. |
+| Aparecimento | set/2017 | Pilotos da Widerøe perdem GPS durante o Zapad-2017. Ainda é anomalia ligada a exercício. |
+| Continuidade | outono/2022 | Jamming deixa de ser episódico e passa a contínuo — depois dos ataques de drones ucranianos a alvos dentro da Rússia. **Esta é a inflexão real, não fevereiro.** |
+| Descida | 2024–2026 | Jamming forte sobre Varanger a 500 m. Deixa de ser fenômeno de alta altitude. |
 
 O texto tem de deixar claro por que "aparecimento em 2017" importa: o fenômeno é anterior
-à invasão. Isso derruba a leitura simples de causa única e obriga a falar de continuidade
-da atividade de guerra eletrônica na região de Múrmansk/Frota do Norte.
+à invasão. Isso derruba a leitura de causa única e obriga a falar de continuidade da
+atividade de guerra eletrônica em Kola.
+
+**A moldura Zapad.** A primeira observação coincide com o Zapad-2017; o aborto de Vardø
+ocorre durante o Zapad-2025. Oito anos, o mesmo exercício, os dois extremos da série — é
+uma moldura pronta e boa demais para desperdiçar. Mas ela carrega uma armadilha: sugere
+que o jamming é episódico. **Não é, e essa é a tese.** Os exercícios são os picos visíveis;
+o que mudou foi o vale entre eles. Abrir e fechar a seção com o par Zapad, e dizer isso
+com todas as letras.
 
 Detalhe factual em `01-cronologia.md`, com fonte por linha.
 
@@ -114,6 +126,14 @@ Por que 500 m é categoricamente diferente de 10.000 m:
 O aborto de pouso em Vardø é a ilustração exata desse encadeamento. Usar aqui, e não na
 abertura, o detalhe técnico do que falhou.
 
+**O fecho da seção — e o achado da apuração.** A Nkom não descreve o jamming como ataque à
+Noruega: descreve como transbordamento da autodefesa eletromagnética das bases de Kola,
+feito com alta potência e sem consideração por vazar para o país vizinho. Kirkenes está a
+~55 km de Pechenga. Daí decorre a frase mais dura da matéria, e ela é literalmente
+verdadeira: **ninguém está mirando a rampa de aproximação de Vardø — e é exatamente por
+isso que ninguém vai calibrá-la para poupá-la.** A degradação a 500 m não é decisão de
+alguém; é a borda de um cobertor eletromagnético grande demais. Não há a quem apelar.
+
 **Pendência:** confirmar com a Avinor/Widerøe quais aproximações nesses aeroportos são
 GNSS-dependentes e o que resta de backup terrestre. Isso é o fato que fecha a seção.
 
@@ -160,8 +180,15 @@ Fechar com a assimetria: mitigar custa milhões por frota; jammear custa um tran
 
 Voltar a Vardø. O ponto final não é "está piorando" — é que o sistema já se adaptou a
 operar sob degradação permanente, e adaptação silenciosa é como um risco deixa de ser
-contado. A pergunta que fica: quantos abortos de pouso são normais antes de deixarem
-de ser notícia?
+contado.
+
+E há o ponto que a apuração entregou: um ataque pode ser protestado, negociado, cessado.
+Um transbordamento, não. Enquanto houver drones ameaçando Kola, haverá escudo eletrônico
+sobre Kola; e enquanto houver escudo, a borda dele cai sobre o Finnmark. Não existe
+interlocutor para esse problema — existe só a decisão norueguesa de conviver com ele ou
+de pagar para se blindar.
+
+A pergunta que fica: quantos abortos de pouso são normais antes de deixarem de ser notícia?
 
 ---
 
