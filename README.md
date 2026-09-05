@@ -34,7 +34,13 @@ dados/
   bruto/              Downloads intactos (não versionado)
   processado/         Séries e agregados
 graficos/             Saídas finais para a matéria
+sideprojects/         Beat de segurança espacial: as outras quatro pautas da mesma família
 ```
+
+`sideprojects/` reúne as pautas adjacentes — hijacking de ativos espaciais, spoofing,
+comunicação satélite-a-satélite e defesa de estações terrenas. São mapas de partida, não
+apuração feita. O jamming é a camada mais visível de um problema que vai da antena da
+estação terrena ao enlace entre dois satélites.
 
 Cada rascunho de seção traz, no próprio arquivo, a fonte de cada trecho, as decisões de
 redação (para serem contestadas) e as pendências de apuração. Nada é escrito por
